@@ -12,12 +12,8 @@
 
         </ol>
     </nav>
-    {{-- @foreach ($letter_type['letter'] as $data)
-      {{ $data[''] }}
-  @endforeach 
-  {{ $letter_type }} --}}
+    
     <b>
-
         <h2 style="display: inline-block">{{ $klarifikasi['letter_code'] }}</h2> |  {{ $klarifikasi['name_type'] }}
     </b>
     <hr>
@@ -56,7 +52,7 @@
                                 
                             </tr>
                             <tr>
-                                <td> <a href="{{ route('klasifikasi.pdf', $data['id']) }}">Unduf pdf</a></td>
+                                <td> <a href="{{ route('klarifikasi.pdf', $data['id']) }}">Unduf pdf</a></td>
                             </tr>
                         </table>
                     </div>

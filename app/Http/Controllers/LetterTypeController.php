@@ -63,6 +63,7 @@ class LetterTypeController extends Controller
 
         return view('staff.klarifikasi.show', compact('klarifikasi'));
     }
+    
 
     /**
      * Show the form for editing the specified resource.
